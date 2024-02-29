@@ -1,0 +1,107 @@
+body{
+    background: #F1F1F1;
+    color: black;
+}
+
+html{
+    font-family: Montserrat, sans-serif;
+}
+
+#nom_entreprise{
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: none;
+    margin-top: auto;
+    padding-left: 10px;
+    }
+
+nav{
+    display: flex;
+    background-color: #EFCDEA;
+}
+
+nav ul{
+    margin-left: auto;
+    list-style: none;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    float: right;
+}
+
+.ajout_perso {
+    width: 700px;
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 0 50px 0 50px;
+    background: white;
+}
+
+.ajout_perso > h1 {
+    font-weight: 500;
+}
+
+.ajout_perso > p {
+    font-weight: 300;
+}
+
+form div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 83px;
+    margin-top: 25px;
+}
+
+form div > label {
+    margin-bottom: 7px;
+    font-weight: 600;
+}
+
+form div > input{
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.25);
+    height: 50px;
+    padding-left: 10px;
+}
+
+form div > input::placeholder{
+    color: grey;
+}
+
+
+form button {
+    width: 450px;
+    max-width: 500px;
+    height: 60px;
+    font-weight: 700;
+    font-size: 28px;
+    background: white;
+    border: rgba(48, 48, 48, 0.5) solid 1px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+    color: #303030;
+}
+
+footer {
+	position: fixed;
+	bottom: 2%;
+	text-align: center;
+	width: 100%;
+}
